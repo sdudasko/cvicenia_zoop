@@ -1,0 +1,1 @@
+package sk.stuba.fiit.vztahy;public class Turista extends Clovek {	public double vypocitajDanZaOLO() {		System.out.println("ja som turista za OLO neplatim");		return 0;	}}

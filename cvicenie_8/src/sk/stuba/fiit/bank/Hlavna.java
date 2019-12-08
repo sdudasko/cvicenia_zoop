@@ -1,0 +1,1 @@
+package sk.stuba.fiit.bank;public class Hlavna {	public static void main(String[] args) {		AccountManager am = new AccountManager();		am.getBankAccounts().add(new Account("Jano", 10));	}}

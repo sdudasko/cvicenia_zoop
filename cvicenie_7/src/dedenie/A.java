@@ -1,0 +1,1 @@
+package dedenie;public class A {    int i;    public A(int i) {        System.out.println("konstruktor A");    }    public final void m() {        System.out.println("metoda A");    }    public void m(int u) {        System.out.println("metoda A");    }}

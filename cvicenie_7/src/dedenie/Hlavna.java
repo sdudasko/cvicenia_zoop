@@ -1,0 +1,1 @@
+package dedenie;public class Hlavna {	public static void main(String[] args) {		// TODO Auto-generated method stub		new A(2);		new B();		new B().m();		new C().m(1, 2);		System.out.println(PoriadkumilovnyObyvatel.jePoriadkumilovny());		System.out.println(new LenivyObyvatel("jozo").meno);		//new C().fm	}}

@@ -1,0 +1,1 @@
+package sk.stuba.fiit.bank;import java.util.ArrayList;import java.util.LinkedList;public class AccountManager {	ArrayList bankAccounts = new ArrayList();	// private LinkedList<Motor> usedWheels;	public ArrayList getBankAccounts() {		return bankAccounts;	}	public void setBankAccounts(ArrayList bankAccounts) {		this.bankAccounts = bankAccounts;	}}

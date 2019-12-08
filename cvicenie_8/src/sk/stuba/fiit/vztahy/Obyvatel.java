@@ -1,0 +1,1 @@
+package sk.stuba.fiit.vztahy;public class Obyvatel extends Clovek {	int pocetNehnutelnosti;		public Obyvatel() {		this.d = new Domcek();		pocetNehnutelnosti++;	}	public double vypocitajDanZaOLO() {		// od poctu nehnutelnosti		return 1000*pocetNehnutelnosti;	}	}

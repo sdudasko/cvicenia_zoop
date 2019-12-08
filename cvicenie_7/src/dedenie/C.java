@@ -1,0 +1,1 @@
+package dedenie;public class C extends B {	public C() {		System.out.println("konstruktor C");	}		public void m(int c) {		System.out.println(c);		System.out.println("cau");		super.m(2);		super.i++;		System.out.println("metoda C");		m(1, 2);	}	public void m(int a, int b) {		System.out.println(a + b);	}}
